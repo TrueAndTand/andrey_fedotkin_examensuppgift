@@ -1,0 +1,133 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+    color: dodgerblue;
+}
+
+div{
+    border-radius: 5px;
+    border: solid;
+    
+    height: 50px;
+    width: 50px;
+
+    margin: 2px;
+    justify-content: center;
+    display: flex;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+/*Funktion knappar (högsta layer)_________________________________________________________________________________________________*/
+
+.functions{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    border: none;
+
+    gap: 2px;
+}
+
+#esc, #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #f10, #11, #f12, #prt, #pwr{
+    width: 50px;
+    height: 20px;
+
+    justify-content: center;
+    display: flex;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+/*Allmänt nummer för knappar (andra från högst)__________________________________________________________________________________*/
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    border: none;
+
+    gap: 2px;
+    margin-top: 12px;
+}
+
+#§{
+    width: 33px;
+    height: 50px;
+
+    justify-content: center;
+    display: flex;
+
+    border-color: dodgerblue;
+    color: dodgerblue; 
+}
+
+#bck{
+    width: 100px;
+    height: 50px;
+    
+    justify-content: center;
+    display: flex;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+#1, #2, #3, #4, #5, #6, #7, #8, #9, #0, #plus, #accent, #home{
+    justify-content: center;
+    display: flex;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+/*Bokstäverna som ligger högst__________________________________________________________________________________*/
+
+.topLayer{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    border: none;
+
+    gap: 2px;
+    margin-top: 12px;
+}
+
+#tab{
+    width: 75px;
+    height: 50px;
+    
+    justify-content: center;
+    display: flex;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+/*Bokstäverna som ligger i mitten__________________________________________________________________________________*/
+
+.midLayer{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    border: none;
+
+    gap: 2px;
+    margin-top: 12px;   
+}
+
+#cps_lck{
+    
+}
