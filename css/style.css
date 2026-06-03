@@ -31,13 +31,14 @@ div{
     display: flex;
     justify-content: center;
     
+    height: 23px;
     width: 100%;
     border: none;
 
     gap: 2px;
 }
 
-#esc, #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #f10, #11, #f12, #prt, #pwr{
+#esc, #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #f10, #f11, #f12, #prt, #pwr, #del{
     width: 50px;
     height: 20px;
 
@@ -127,7 +128,17 @@ div{
 }
 
 #enter{
+    justify-content: center;
+    display: flex;
 
+    height: 112px;
+    width: 50px;
+
+    position: relative;
+    z-index: 10;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
 }
 
 /*Bokstäverna som ligger i mitten__________________________________________________________________________________*/
@@ -152,6 +163,16 @@ div{
 
     border-color: dodgerblue;
     color: dodgerblue;
+
+    transform: translate(-36px);
+}
+
+#a, #s, #d, #f, #g, #h, #j, #k, #l, #ö, #ä, #apostrof{
+    transform: translate(-36px);
+}
+
+#pg_dn{
+    transform: translate(24px);
 }
 
 /*Bokstäverna som ligger i botten__________________________________________________________________________________*/
@@ -200,4 +221,22 @@ div{
 
     border-color: dodgerblue;
     color: dodgerblue;
+}
+
+.arrowsStacked{
+    display: flex;
+    flex-direction: column;
+
+    height: 50px;
+    width: 50px;
+
+    border: none;
+    margin-top: 4px;
+    padding: 0px;
+}
+
+#up, #down{
+    height: 25px;
+    width: 50px;
+    box-sizing: border-box;
 }
