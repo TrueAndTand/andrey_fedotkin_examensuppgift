@@ -13,7 +13,7 @@ h1{
 div{
     border-radius: 5px;
     border: solid;
-    
+
     height: 50px;
     width: 50px;
 
@@ -40,9 +40,6 @@ div{
 #esc, #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #f10, #11, #f12, #prt, #pwr{
     width: 50px;
     height: 20px;
-
-    justify-content: center;
-    display: flex;
 
     border-color: dodgerblue;
     color: dodgerblue;
@@ -87,6 +84,9 @@ div{
     justify-content: center;
     display: flex;
 
+    height: 50px;
+    width: 50px;
+
     border-color: dodgerblue;
     color: dodgerblue;
 }
@@ -115,6 +115,21 @@ div{
     color: dodgerblue;
 }
 
+#q, #w, #e, #r, #t, #y, #u, #i, #o, #p, #å, #¨, #pg_up{
+    justify-content: center;
+    display: flex;
+
+    height: 50px;
+    width: 50px;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+#enter{
+
+}
+
 /*Bokstäverna som ligger i mitten__________________________________________________________________________________*/
 
 .midLayer{
@@ -129,5 +144,60 @@ div{
 }
 
 #cps_lck{
+    justify-content: center;
+    display: flex;
+
+    height: 50px;
+    width: 87.5px;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+/*Bokstäverna som ligger i botten__________________________________________________________________________________*/
+
+.bottomLayer{
+    display: flex;
+    justify-content: center;
     
+    width: 100%;
+    border: none;
+
+    gap: 2px;
+    margin-top: 12px; 
+}
+
+#RShift{
+    justify-content: center;
+    display: flex;
+
+    height: 50px;
+    width: 137.5px;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
+
+/*Tangenterna dsom ligger längst nere (inklusive mellanslag)________________________________________________________*/
+
+.bottomestLayer{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    border: none;
+
+    gap: 2px;
+    margin-top: 12px; 
+}
+
+#space{
+    justify-content: center;
+    display: flex;
+
+    height: 50px;
+    width: 275px;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
 }
