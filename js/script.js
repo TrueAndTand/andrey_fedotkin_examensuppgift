@@ -146,6 +146,7 @@ document.addEventListener("keydown", (event) => {
 
     else if(event.key == "t"){
         document.getElementById("t").style ="color:coral; border-color:coral;"
+        document.getElementById("sahur").style.display = "block";
     }
 
     else if(event.key == "y"){
@@ -345,8 +346,6 @@ document.addEventListener("keydown", (event) => {
     }
 });
 
-
-
 document.addEventListener("keyup", (event) => {
     if(event.key == "Escape"){
         document.getElementById("esc").style = "color:dodgerblue; border-color:dodgerblue;"
@@ -494,6 +493,8 @@ document.addEventListener("keyup", (event) => {
 
     else if(event.key == "t"){
         document.getElementById("t").style ="color:dodger-blue; border-color:dodger-blue;"
+        document.getElementById("sahur").style.display = "none";
+        document.getElementById("sahurPapparazi").play();
     }
 
     else if(event.key == "y"){
@@ -542,6 +543,7 @@ document.addEventListener("keyup", (event) => {
 
     else if(event.key == "s"){
         document.getElementById("s").style ="color:dodger-blue; border-color:dodger-blue;"
+        document.getElementById("surprise").play();
     }
 
     else if(event.key == "d"){
