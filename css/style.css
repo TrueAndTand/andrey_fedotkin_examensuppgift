@@ -10,6 +10,13 @@ h1{
     color: dodgerblue;
 }
 
+p{
+    display: flex;
+    justify-content: center;
+
+    color: dodgerblue;
+}
+
 div{
     border-radius: 5px;
     border: solid;
