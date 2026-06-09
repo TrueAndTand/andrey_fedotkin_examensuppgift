@@ -65,3 +65,9 @@ document.addEventListener("keydown", (event) => {
     }
     
 });
+
+document.addEventListener("keyup", (event) => {
+    if(event.key == "Escape"){
+        document.getElementById("esc").style = "color:dodgerblue; border-color:dodgerblue;"
+    }
+})
