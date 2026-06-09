@@ -172,7 +172,7 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("å").style ="color:coral; border-color:coral;"
     }
 
-    else if(event.key == ""){
+    else if(event.key == "Dead"){
         document.getElementById("¨").style ="color:coral; border-color:coral;"
     }
 
@@ -240,11 +240,11 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("pg_dn").style ="color:coral; border-color:coral;"
     }
 
-    else if(event.key == "ShiftLeft"){
+    else if(event.key == "Shift"){
         document.getElementById("LShift").style ="color:coral; border-color:coral;"
     }
 
-    else if(event.key == "|"){
+    else if(event.key == "<"){
         document.getElementById("|").style ="color:coral; border-color:coral;"
     }
 
@@ -276,15 +276,15 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("m").style ="color:coral; border-color:coral;"
     }
 
-    else if(event.key == "Comma"){
+    else if(event.key == ","){
         document.getElementById(",").style ="color:coral; border-color:coral;"
     }
 
-    else if(event.key == "Period"){
+    else if(event.key == "."){
         document.getElementById(".").style ="color:coral; border-color:coral;"
     }
 
-    else if(event.key == "Minus"){
+    else if(event.key == "-"){
         document.getElementById("-").style ="color:coral; border-color:coral;"
     }
 
@@ -292,8 +292,56 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("RShift").style ="color:coral; border-color:coral;"
     }
 
-    else if(event.key == "end"){
+    else if(event.key == "End"){
         document.getElementById("end").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "Control"){
+        document.getElementById("LCtrl").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == ""){
+        document.getElementById("fn").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "Meta"){
+        document.getElementById("win").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "Alt"){
+        document.getElementById("alt").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == " "){
+        document.getElementById("space").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "AltGraph"){
+        document.getElementById("alt_gr").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "ContextMenu"){
+        document.getElementById("clip_brd").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "Control"){
+        document.getElementById("RCtrl").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "ArrowLeft"){
+        document.getElementById("left").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "ArrowRight"){
+        document.getElementById("right").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "ArrowUp"){
+        document.getElementById("up").style ="color:coral; border-color:coral;"
+    }
+
+    else if(event.key == "ArrowDown"){
+        document.getElementById("down").style ="color:coral; border-color:coral;"
     }
 });
 
@@ -538,5 +586,109 @@ document.addEventListener("keyup", (event) => {
 
     else if(event.key == "PageDown"){
         document.getElementById("pg_dn").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+        else if(event.key == "Shift"){
+        document.getElementById("LShift").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "<"){
+        document.getElementById("|").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "z"){
+        document.getElementById("z").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "x"){
+        document.getElementById("x").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "c"){
+        document.getElementById("c").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "v"){
+        document.getElementById("v").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "b"){
+        document.getElementById("b").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "n"){
+        document.getElementById("n").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "m"){
+        document.getElementById("m").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == ","){
+        document.getElementById(",").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "."){
+        document.getElementById(".").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "-"){
+        document.getElementById("-").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "Shift"){
+        document.getElementById("RShift").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "End"){
+        document.getElementById("end").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "Control"){
+        document.getElementById("LCtrl").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == ""){
+        document.getElementById("fn").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "Meta"){
+        document.getElementById("win").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "Alt"){
+        document.getElementById("alt").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == " "){
+        document.getElementById("space").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "AltGraph"){
+        document.getElementById("alt_gr").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "ContextMenu"){
+        document.getElementById("clip_brd").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "Control"){
+        document.getElementById("RCtrl").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "ArrowLeft"){
+        document.getElementById("left").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "ArrowRight"){
+        document.getElementById("right").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "ArrowUp"){
+        document.getElementById("up").style ="color:dodger-blue; border-color:dodger-blue;"
+    }
+
+    else if(event.key == "ArrowDown"){
+        document.getElementById("down").style ="color:dodger-blue; border-color:dodger-blue;"
     }
 })
